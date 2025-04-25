@@ -420,5 +420,6 @@ def download_filtered_data(n_clicks, selected_type, selected_expiry, min_strike,
 
 #Run Server
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8050)
+    port = int(os.environ.get("PORT", 8050))
+    app.run_server(host="0.0.0.0", port=port)
 
