@@ -49,3 +49,4 @@ yfinance==0.2.55
 zipp==3.21.0
 gunicorn
 scipy
+dash_bootstrap_components
