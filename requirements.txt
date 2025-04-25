@@ -50,3 +50,4 @@ zipp==3.21.0
 gunicorn
 scipy
 dash_bootstrap_components
+pyarrow
